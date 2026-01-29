@@ -1,9 +1,7 @@
 # Class 1 Demo: WebGPU "Hello World" Setup
 
-**Goal:** Go from an empty folder to a rendered triangle in the browser using a professional development stack.
 
 **Prerequisites:**
-
 * Node.js installed (LTS version recommended).
 * VS Code installed.
 * "WebGPU" extension for VS Code (optional but recommended for WGSL syntax highlighting).
@@ -231,13 +229,3 @@ render();
 1. Save `main.ts`.
 2. Look at your browser window.
 3. You should see a **Red Triangle** on a **Dark Blue Background**.
-
-### Troubleshooting Tips for Class
-
-* **White Screen?** Check the Console (F12) for errors.
-* **"WebGPU not supported"?** Ensure they are using Chrome/Edge (latest) or Firefox Nightly.
-* **Black Screen?** Ensure `context.configure` matches the `canvasFormat`.
-
----
-
-**Next Step:** Would you like the detailed breakdown of **Class 2 (Textures & Procedural Art)** including the specific code logic for loading an image into a WebGPU texture?
